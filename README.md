@@ -2,6 +2,8 @@
 
 `OpenVINO Optimized` · `CPU-Only` · `License: Apache-2.0 (code)` · `Status: RUO (Research Use Only)`
 
+[![Weights on Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Weights-yellow)](https://huggingface.co/DeptCreator/lymph-node-triage-cpu)
+
 Second-read triage aid for breast lymph-node metastasis screening on H&E slides.
 Frozen histology encoder + linear probe, OpenVINO inference on commodity CPU, no GPU, no cloud.
 **Adjunct only: the verdict is always made by the pathologist.**
@@ -16,7 +18,9 @@ python app.py                # local demo at http://127.0.0.1:7860
 python run_cli.py assets/demo_slide.png --out heatmap_out.png
 ```
 
-Weights mirror: https://huggingface.co/DeptCreator/lymph-node-triage-cpu (same files + model card).
+Weights mirror: https://huggingface.co/DeptCreator/lymph-node-triage-cpu (same files + full model card
+with metrics, limitations and license split). `download_weights.py` fetches from the GitHub Release;
+the HF repo is an identical mirror for those who prefer it.
 
 ## Measured results (frozen protocol, not marketing)
 
