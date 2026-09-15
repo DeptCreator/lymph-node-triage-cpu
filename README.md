@@ -16,6 +16,8 @@ python app.py                # local demo at http://127.0.0.1:7860
 python run_cli.py assets/demo_slide.png --out heatmap_out.png
 ```
 
+Weights mirror: https://huggingface.co/DeptCreator/lymph-node-triage-cpu (same files + model card).
+
 ## Measured results (frozen protocol, not marketing)
 
 | Metric | Value | Source |
