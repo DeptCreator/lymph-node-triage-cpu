@@ -1,0 +1,7 @@
+# Runtime only (no torch needed: inference runs on OpenVINO).
+openvino==2026.3.1
+scikit-learn==1.9.0
+gradio==6.27.0
+numpy
+pillow
+scipy
