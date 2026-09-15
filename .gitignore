@@ -1,0 +1,16 @@
+# data, weights, caches, OS junk — never commit
+*.tif
+*.svs
+*.ndpi
+*.npz
+*.dat
+*.bin
+*.xml
+models/
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.log
+.DS_Store
+Thumbs.db
